@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <div className="w-full h-screen justify-end px-4 md:px-10 bg-black mb-20 overflow-x-hidden">
+    <div className="w-full min-h-screen justify-end px-4 md:px-10 bg-black mb-20 overflow-x-hidden">
       {/* Text Heading Section */}
       <div>
         <div className="text-white text-2xl w-[300px] ml-7 mt-24 sm:w-[350px] sm:text-3xl md:text-4xl sm:ml-20 md:w-[400px] md:mt-24 lg:text-5xl lg:w-[500px] xl:text-6xl xl:w-[650px] leading-tight tracking-tight">

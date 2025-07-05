@@ -37,7 +37,7 @@ export default function FAQ() {
                                 What topics are covered in the DSA course?
                             </span>
                         </div>
-                        <div className={`${first ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${first ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2 justify-text px-4`}>
                             Our DSA course covers everything from the basics to advanced topics, including hands-on problem-solving. You'll also have access to editorial videos and contests to deepen your understanding.
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
@@ -58,7 +58,7 @@ export default function FAQ() {
                                 Are there any prerequisites for enrolling in this course?
                             </span>
                         </div>
-                        <div className={`${second ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${second ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2  justify-text px-4`}>
                             The only prerequisites are dedication and commitment. We'll take care of the rest, guiding you step by step through the course.
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
@@ -79,7 +79,7 @@ export default function FAQ() {
                                 Is the course content updated regularly?
                             </span>
                         </div>
-                        <div className={`${third ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${third ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2 justify-text px-4`}>
                             Yes, we value user feedback immensely, as our customers are our top priority. If there's any issue or improvement needed, we make sure to update the content regularly to provide the best learning experience.
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
@@ -100,7 +100,7 @@ export default function FAQ() {
                                 Does TUF+ include aptitude preparation?
                             </span>
                         </div>
-                        <div className={`${fourth ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${fourth ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2 justify-text px-4`}>
                             Yes, TUF+ includes aptitude mocks and tests tailored for placements. These are available post our V3 launch.
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
@@ -121,7 +121,7 @@ export default function FAQ() {
                                 Can I get a sample lesson before purchasing?
                             </span>
                         </div>
-                        <div className={`${fifth ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${fifth ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2 justify-text px-4`}>
                             You can explore our free platform, which includes a few features to give you a feel of the content. However, the experience is much smoother and more comprehensive when you dive into the premium courses on takeuforward.
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
@@ -142,7 +142,7 @@ export default function FAQ() {
                                 How much time will I need to complete TUF+?
                             </span>
                         </div>
-                        <div className={`${sixth ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${sixth ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2 justify-text px-4`}>
                             We have a personalised roadmap for your requirement. Add your target dates and get a complete roadmap of how many days you have to allot to each topic "daywise". This will not only help you prepare better but also help you keep motivated to maintain your streak!
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
@@ -164,7 +164,7 @@ export default function FAQ() {
                                 What programming languages does TUF+ support?
                             </span>
                         </div>
-                        <div className={`${seventh ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2`}>
+                        <div className={`${seventh ? 'block' : 'hidden'} text-[#a3a5ae] w-full text-sm p-2 pt-2 justify-text  px-4`}>
                             TUF+ supports C++, Java, Python, and JavaScript so you can learn in the language of your choice.
                         </div>
                         <hr className="h-px bg-gray-700 border-0 w-full mt-2" />
