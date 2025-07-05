@@ -1,6 +1,7 @@
 // import { Button } from "@/components/ui/button"
 import Services from "./components/section/Services"
 import FAQ from "./components/section/FAQ"
+import Plan from "./components/section/Plans" 
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <hr className="bg-white"/>
       <Services />
       <hr className="bg-white"/>
+      <Plan/>
+      <hr className="bg-white"/>
       <FAQ/>
       
     </div>
@@ -19,3 +22,6 @@ function App() {
 }
 
 export default App
+//testimonial section
+// hero section
+// bento
