@@ -13,12 +13,16 @@
     "@cloudinary/react": "^1.14.3",
     "@cloudinary/url-gen": "^1.21.0",
     "@radix-ui/react-slot": "^1.2.3",
+    "@rive-app/react-canvas": "^4.21.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.523.0",
     "motion": "^12.23.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.3",
+    "rive-js": "^0.7.33",
+    "rive-react": "^4.21.4",
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
