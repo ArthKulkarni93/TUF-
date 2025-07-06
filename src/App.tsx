@@ -2,6 +2,7 @@
 import Services from "./components/section/Services"
 import FAQ from "./components/section/FAQ"
 import Plan from "./components/section/Plans" 
+import Footer from "./components/section/Footer"
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Plan/>
       <hr className="bg-white"/>
       <FAQ/>
+      <hr className="bg-white"/>
+      <Footer/>
       
     </div>
   )
@@ -25,3 +28,4 @@ export default App
 //testimonial section
 // hero section
 // bento
+//Footer section
