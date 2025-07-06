@@ -7,7 +7,7 @@ import Footer from "./components/section/Footer"
 import RiveButton from "./components/section/Rive"
 import RiveButton2 from "./components/section/Rive2"
 import Companies from "./components/section/Companies"
-import BigTitle from "./components/section/BigTitle"
+
 import HeroSection from "./components/section/Hero"
 
 function App() {
