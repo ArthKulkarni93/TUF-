@@ -7,21 +7,25 @@ import Footer from "./components/section/Footer"
 import RiveButton from "./components/section/Rive"
 import RiveButton2 from "./components/section/Rive2"
 import Companies from "./components/section/Companies"
+import BigTitle from "./components/section/BigTitle"
+import HeroSection from "./components/section/Hero"
 
 function App() {
   return (
     <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <div className="h-[100vh] w-full flex items-center justify-center  text-white text-4xl font-bold">
+      {/* <div className="h-[100vh] w-full flex items-center justify-center  text-white text-4xl font-bold">
         hero section
-      </div>
+      </div> */}
+      <HeroSection />
       <Companies />
       <Services />
 
       <RiveButton/>
-      <hr className="text-white bg-white" />
+      {/* <hr className="text-white bg-white" /> */}
+      {/* <BigTitle/> */}
+{/* <hr className="text-white bg-white" /> */}
       <RiveButton2/>
-<hr className="text-white bg-white" />
       <Plan/>
 
       <FAQ/>
