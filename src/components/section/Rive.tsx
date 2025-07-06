@@ -1,5 +1,4 @@
 import { useRive, useStateMachineInput } from '@rive-app/react-canvas';
-import { useEffect } from 'react';
 
 const RiveButton = () => {
   const STATE_MACHINE = 'State Machine 1';
@@ -18,18 +17,18 @@ const RiveButton = () => {
   const clickTrigger = useStateMachineInput(rive, STATE_MACHINE, TRIGGER_NAME);
 
   // If you want to listen for custom Rive events, use the Rive instance directly
-  useEffect(() => {
-    if (rive) {
-      const handleEvent = (e: any) => {
-        console.log('Rive Event:', e.data?.name);
-      };
-      // Example: Listen for the 'play' event if needed
-      // rive.on('play', handleEvent);
-      // return () => {
-      //   rive.off('play', handleEvent);
-      // };
-    }
-  }, [rive]);
+//   useEffect(() => {
+//     if (rive) {
+//       const handleEvent = (e: any) => {
+//         console.log('Rive Event:', e.data?.name);
+//       };
+//       // Example: Listen for the 'play' event if needed
+//       // rive.on('play', handleEvent);
+//       // return () => {
+//       //   rive.off('play', handleEvent);
+//       // };
+//     }
+//   }, [rive]);
 
   return (
     <div className="w-full mx-auto mt-16 cursor-pointer  h-screen" onClick={() => clickTrigger?.fire()}>

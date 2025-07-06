@@ -3,7 +3,7 @@ import Services from "./components/section/Services"
 import FAQ from "./components/section/FAQ"
 import Plan from "./components/section/Plans" 
 import Footer from "./components/section/Footer"
-import Testimonials from "./components/section/Testimonial"
+// import Testimonials from "./components/section/Testimonial"
 import RiveButton from "./components/section/Rive"
 
 function App() {
