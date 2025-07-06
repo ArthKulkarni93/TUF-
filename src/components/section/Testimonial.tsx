@@ -7,8 +7,11 @@ type Testimonial = {
 };
 
 
-
-function getRandomTestimonials(arr, min = 20, max = 30) {
+function getRandomTestimonials(
+  arr: Testimonial[],
+  min = 20,
+  max = 30
+): Testimonial[] {
   const shuffled = arr.slice();
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -34,7 +37,7 @@ export default function Testimonials() {
           What People Are Saying on Social Media
         </h2>
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-          {randomTestimonials.map((t, idx) => (
+          {randomTestimonials.map((t: Testimonial, idx: number) => (
             <a
               key={idx}
               href={t.href}
@@ -44,7 +47,7 @@ export default function Testimonials() {
             >
               <img
                 src={t.img}
-                alt="testimonial"
+                alt={`testimonial-${idx}`}
                 className="w-full h-auto object-cover rounded-lg"
               />
             </a>
@@ -54,6 +57,8 @@ export default function Testimonials() {
     </section>
   );
 }
+
+
 const testimonials: Testimonial[] = [
     {
         "href": "https://discord.com/invite/bsU2PGNrHC",

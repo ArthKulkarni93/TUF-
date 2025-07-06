@@ -6,7 +6,7 @@ const RiveButton = () => {
   const TRIGGER_NAME = 'clickTrigger';
 
   const { rive, RiveComponent } = useRive({
-    src: 'public/2.riv',
+    src: 'https://res.cloudinary.com/dh626d9by/raw/upload/v1751780321/2_o3g3dq.riv',
     stateMachines: STATE_MACHINE,
     autoplay: true,
     onStateChange: (event) => {
